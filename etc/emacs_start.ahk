@@ -116,7 +116,7 @@ activate_emacs(emacs_pid)
 	if(arg_string)
 	{
 		;; 引数が存在するならクライアントにファイルを送る
-		Run, "%path_emacsclientw%" -n --server-file "%path_server%" %arg_string%
+		Run, "%path_emacsclientw%" -n "%arg_string%"
 	}
 	else
 	{
@@ -131,7 +131,7 @@ run_emacs()
 	;; emacs本体のパスと引数を使用
 	global path_emacs, arg_string
 	;; emacsを起動する
-	Run, "%path_emacs%"%arg_string%
+	Run, "%path_emacs%" "%arg_string%"
 }
 
 ;; emacsのPIDを取得する
