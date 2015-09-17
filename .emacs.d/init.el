@@ -94,8 +94,11 @@
 ;; c-eldoc mode
 (private-load-init "~/.emacs.d/c-eldoc.el")
 
-;;vbnet-mode
+;; vbnet-mode
 (private-load-init "~/.emacs.d/visual-basic-mode.el")
+
+;; markdown-mode
+(private-load-init "~/.emacs.d/markdown-mode.el")
 
 (local-load-init "~/local.el")
 
