@@ -1,9 +1,9 @@
 /etc/ac-comphist.dat
-
 /etc/auto-save-list*
 /bin/win32/StartEmacs.ini
 /local.el
 /.emacs.d/server/server
-
 /etc/ac-dict
 /.emacs.d/server
+/.emacs.d/url
+/.emacs.d/elpa/archives/gnu/archive-contents
