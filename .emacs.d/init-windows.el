@@ -91,7 +91,7 @@
 (setq
  ps-print-color-p t
 ; ghostscriptの実行コマンド場所を指定
- ps-lpr-command "C:/usr/share/gs/9.10/bin/gswin64c.exe"
+ ps-lpr-command "gswin64c.exe"
  ps-multibyte-buffer 'non-latin-printer
  ps-lpr-switches '("-sDEVICE=mswinpr2" "-dNOPAUSE" "-dBATCH" "-dWINKANJI" "-dBitsPerPixel=24")
  printer-name nil
@@ -101,7 +101,7 @@
 )
 
 ;;; doc-view
-(setq  doc-view-ghostscript-program "C:/usr/share/gs/9.10/bin/gswin64c.exe")
+(setq  doc-view-ghostscript-program "gswin64c.exe")
 
 ;;; exec-path
 (add-to-list 'exec-path 
