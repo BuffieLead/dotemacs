@@ -100,6 +100,9 @@
 ;; markdown-mode
 (private-load-init "~/.emacs.d/markdown-mode.el")
 
+;; puml-mode
+(private-load-init "~/.emacs.d/puml-mode.el")
+
 (local-load-init "~/local.el")
 
 (setq default-directory (expand-file-name "~/"))
