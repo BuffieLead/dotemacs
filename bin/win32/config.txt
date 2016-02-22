@@ -1,0 +1,8 @@
+skinparam classArrowFontSize 14
+skinparam classAttributeFontSize 14
+skinparam classFontSize 16
+skinparam classStereotypeFontSize 16
+skinparam classAttributeIconSize 0
+skinparam backgroundColor transparent
+skinparam classAttributeIconSize 0
+skinparam componentStyle uml2
