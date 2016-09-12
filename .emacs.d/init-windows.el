@@ -28,8 +28,19 @@
                       (set-cursor-color ime-inactivate-cursor-color)))) 
 
 ;; Window Settings
-;(set-frame-parameter nil 'alpha 91)
-(add-to-list 'default-frame-alist '(alpha . (0.85 0.80)))
+;(add-to-list
+; 'default-frame-alist
+; '(alpha . (0.85 0.80))
+										; )
+(let ((target 'default-frame-alist)
+      (list
+	   '((alpha . (0.85 0.80))
+		 (foreground-color . "White")
+		 (background-color . "Black")
+		 (cursor-color . "Gray")
+		 (mouse-color . "Gray"))
+	   ))
+  (mapcar (lambda (elm) (add-to-list target elm)) list))
 
 ;------------------
 ;フォント設定
