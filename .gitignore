@@ -7,3 +7,4 @@
 /.emacs.d/server
 /.emacs.d/url
 /.emacs.d/elpa/archives/gnu/archive-contents
+*.elc

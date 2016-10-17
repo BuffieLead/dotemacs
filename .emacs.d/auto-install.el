@@ -4,6 +4,7 @@
 
 (require 'package)
 (setq package-user-dir "~/.emacs.d/elisp/package/")
+(package-initialize)
 ;; MELPAを追加
 (add-to-list 'package-archives '("melpa" . "http://melpa.org/packages/") t)
 ;; MELPA-stableを追加
@@ -12,7 +13,6 @@
 (add-to-list 'package-archives  '("marmalade" . "http://marmalade-repo.org/packages/") t)
 ;; Orgを追加
 (add-to-list 'package-archives '("org" . "http://orgmode.org/elpa/") t)
-(package-initialize)
 
 ; melpa.el
 ;(require 'melpa)
