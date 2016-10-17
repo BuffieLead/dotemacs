@@ -1,0 +1,6 @@
+(setq url-proxy-services
+	  '(
+		("http" . "localhost:8080")
+		("ftp" . "localhost:8080")
+		("https" . "localhost:8080")
+		))
