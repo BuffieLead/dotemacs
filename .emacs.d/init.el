@@ -30,6 +30,8 @@
 (setq compilation-scroll-output t)
 (setq abbrev-file-name (expand-file-name "~/etc/abbrev_defs"))
 (setq image-dired-dir (expand-file-name "~/etc/image-dired"))
+(local-load-init "~/local.el")
+(setq default-directory (expand-file-name "~/"))
 
 ;; c++-mode
 (private-load-init "~/.emacs.d/c++-mode.el")
@@ -103,9 +105,9 @@
 ;; puml-mode
 (private-load-init "~/.emacs.d/puml-mode.el")
 
-(local-load-init "~/local.el")
+;; magit
+;(private-load-init "~/.emacs.d/magit.el")
 
-(setq default-directory (expand-file-name "~/"))
 
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
